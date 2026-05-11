@@ -13,22 +13,11 @@ export default function Page() {
   const [people, setPeople] = useState([
     {
       name: "AJ",
-      lat: 39.5,
-      lng: -98.35,
-      bio: "Builder of Communites"
+      lat: 40.4167,
+      lng: -86.8753,
+      bio: "765-607-0277"
     },
-    {
-      name: "John",
-      lat: 30.2672,
-      lng: -97.7431,
-      bio: "Austin guy"
-    },
-    {
-      name: "Sarah",
-      lat: 41.8781,
-      lng: -87.6298,
-      bio: "Chicago life"
-    }
+
   ]);
 
   // ----------------------------
