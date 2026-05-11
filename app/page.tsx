@@ -1,37 +1,27 @@
-import Image from "next/image";
 import Link from "next/link";
+
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-center bg-black text-gray-200">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white px-6">
 
-      {/* +JMJ+ Top Center */}
-      <div className="absolute top-4 text-sm tracking-widest text-gray-400">
+      <p className="absolute top-6 text-sm text-gray-500">
         +JMJ+
-      </div>
+      </p>
 
-      {/* Future Logo Placeholder */}
-      <div className="mb-8 flex items-center justify-center">
-        <div className="h-24 w-24 rounded-full border-2 border-[#800000] flex items-center justify-center text-gray-500">
-          LOGO
-        </div>
-      </div>
-
-      {/* Main Title */}
-      <h1 className="text-7xl font-extrabold tracking-tight text-[#800000] mb-4">
+      <h1 className="text-6xl font-bold text-[#800000] mb-4">
         Communites
       </h1>
 
-      {/* Subtitle */}
-      <p className="text-xl text-gray-400 mb-10">
+      <p className="text-gray-300 text-lg mb-8 text-center">
         Your people. Your map.
       </p>
 
-      {/* Big Button */}
-      <Link href="/map">
-  <button className="...">
-    Enter
-  </button>
-</Link>
+      <Link
+        href="/map"
+        className="bg-[#800000] hover:bg-[#660000] transition-all duration-200 px-6 py-3 rounded-xl font-semibold"
+      >
+        Enter
+      </Link>
 
     </main>
   );
