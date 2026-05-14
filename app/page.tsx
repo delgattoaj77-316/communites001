@@ -13,7 +13,7 @@ export default function Home() {
       </h1>
 
       <p className="text-gray-300 text-lg mb-8 text-center">
-        Your people. Your map.
+        Benedicitne College Class of 2029
       </p>
 
       <Link
